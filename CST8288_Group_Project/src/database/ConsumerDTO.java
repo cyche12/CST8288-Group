@@ -5,9 +5,9 @@
 //Date: 23/7/2024//
 //Authors: Jake Elliott, Navjot Kaur, Heeseok Yang, Scott Valair//
 
-package consumers;
+package database;
 
-public class Consumer {
+public class ConsumerDTO {
 	
 	//Private Consumer Variables//
     private String userId;
@@ -18,7 +18,7 @@ public class Consumer {
     /*
      * Default Constructor
      */
-    public Consumer() {
+    public ConsumerDTO() {
     	
     }
     
@@ -29,7 +29,7 @@ public class Consumer {
      * @param lastName
      * @param userEmail
      */
-    public Consumer(String userId, String firstName, String lastName, String userEmail) {
+    public ConsumerDTO(String userId, String firstName, String lastName, String userEmail) {
         this.userId = userId;
         this.firstName = firstName;
         this.lastName = lastName;
