@@ -3,7 +3,7 @@
 //Professor: Islam Gomaa//
 //Assignment: Final Project//
 //Date: 23/7/2024//
-//Authors: Jake Elliott, Navjot Kaur, Heeseok Yang, Scott Valair
+//Authors: Jake Elliott, Navjot Kaur, Heeseok Yang, Scott Valair//
 
 package consumers;
 
