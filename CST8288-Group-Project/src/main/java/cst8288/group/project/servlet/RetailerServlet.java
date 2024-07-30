@@ -2,10 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package cst8288.group.project.servlet;
+package main.java.cst8288.group.project.servlet;
 
-import cst8288.group.project.model.FoodItem;
-import cst8288.group.project.service.RetailerService;
+import main.java.cst8288.group.project.model.FoodItem;
+import main.java.cst8288.group.project.service.RetailerService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

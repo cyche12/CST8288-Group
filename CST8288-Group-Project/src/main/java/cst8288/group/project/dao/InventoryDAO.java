@@ -2,10 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package cst8288.group.project.dao;
+package main.java.cst8288.group.project.dao;
 
-import cst8288.group.project.db.DBConnection;
-import cst8288.group.project.model.FoodItem;
+import main.java.cst8288.group.project.db.DBConnection;
+import main.java.cst8288.group.project.model.FoodItem;
 
 import java.sql.*;
 import java.util.ArrayList;
