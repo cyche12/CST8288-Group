@@ -8,6 +8,6 @@
 package interfaces;
 
 public interface NotificationService {
-	
+
 	public void sendNotification(String recipient, String message);
 }

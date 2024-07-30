@@ -8,7 +8,6 @@
 package enums;
 
 public enum CommunicationMethod {
-	//Communication Types//
-    EMAIL,
-    SMS
+	// Communication Types//
+	EMAIL, SMS
 }

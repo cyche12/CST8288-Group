@@ -8,8 +8,6 @@
 package enums;
 
 public enum UserType {
-	//User Types//
-    CONSUMER,
-    RETAILER,
-    CHARITABLE_ORGANIZATION
+	// User Types//
+	CONSUMER, RETAILER, CHARITABLE_ORGANIZATION
 }

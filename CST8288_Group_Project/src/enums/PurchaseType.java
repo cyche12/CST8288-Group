@@ -8,8 +8,7 @@
 package enums;
 
 public enum PurchaseType {
-	//Purchase Types//
-	PURCHASE,
-    DONATION
-    
+	// Purchase Types//
+	PURCHASE, DONATION
+
 }
