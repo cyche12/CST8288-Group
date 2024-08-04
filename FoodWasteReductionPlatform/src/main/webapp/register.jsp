@@ -1,12 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Register Page</title>
-<link rel="stylesheet" href="css/styles2.css">
+<link rel="stylesheet" href="/./styles2.css">
 </head>
 <body>
 
@@ -20,9 +18,9 @@
         <input type="password" name="password" placeholder="Password" required>
         <select name="userType" required>
             <option value="" disabled selected>Select User Type</option>
-            <option value="Retail">Retail</option>
-            <option value="Consumer">Consumer</option>
-            <option value="Charity">Charity</option>
+            <option value="RETAIL">Retail</option>
+            <option value="CONSUMER">Consumer</option>
+            <option value="CHARITY">Charity</option>
         </select>
         
         <input type="date" name="joinDate" placeholder="Join Date" required>
