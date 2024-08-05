@@ -19,7 +19,7 @@ import database.UserDAO;
 /**
  * Servlet implementation class LoginServlet
  */
-// @WebServlet("/LoginServlet") // Comment or remove this line
+
 public class LoginServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
     private UserDAO userDao;
@@ -51,13 +51,13 @@ public class LoginServlet extends HttpServlet {
                     break;
                 default:
                     request.setAttribute("error", "Invalid user type");
-                    RequestDispatcher dispatcher = request.getRequestDispatcher("login.jsp");
+                    RequestDispatcher dispatcher = request.getRequestDispatcher("Login.jsp");
                     dispatcher.forward(request, response);
                     break;
             }
         } else {
             request.setAttribute("error", "Invalid email or password");
-            RequestDispatcher dispatcher = request.getRequestDispatcher("login.jsp");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("Login.jsp");
             dispatcher.forward(request, response);
         }
     }

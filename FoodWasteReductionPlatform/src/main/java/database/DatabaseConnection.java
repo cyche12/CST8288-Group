@@ -19,12 +19,14 @@ public class DatabaseConnection {
 
     static {
         try (InputStream input = DatabaseConnection.class.getClassLoader().getResourceAsStream(PROPERTIES_FILE)) {
-            Properties prop = new Properties();
             if (input == null) {
-                LOGGER.log(Level.SEVERE, "Sorry, unable to find " + PROPERTIES_FILE);
-                return;
+                LOGGER.log(Level.SEVERE, "Sorry, unable to find {0}", PROPERTIES_FILE);
+                throw new IOException("Properties file not found");
             }
+            
+            Properties prop = new Properties();
             prop.load(input);
+
             URL = prop.getProperty("db.url");
             USER = prop.getProperty("db.user");
             PASSWORD = prop.getProperty("db.password");

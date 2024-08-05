@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Welcome to Food Waste Reduction Platform</title>
-<link rel="stylesheet" href="/./styles.css">
+<link rel="stylesheet" href="./styles.css">
 </head>
 <body>
 
@@ -13,8 +13,8 @@
 	<h1>Welcome to the Food Waste Reduction Platform</h1>
 	<p>Please choose an option below to continue:</p>
 <div class="links">
-	<a href="login.jsp" class="button">Login</a>
-	<a href="register.jsp" class="button">Register</a>
+	<a href="Login.jsp" class="button">Login</a>
+	<a href="Registration.jsp" class="button">Register</a>
 </div>
 </div>
 

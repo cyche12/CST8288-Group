@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Register Page</title>
-<link rel="stylesheet" href="/./styles2.css">
+<link rel="stylesheet" href="./styles2.css">
 </head>
 <body>
 
@@ -23,7 +23,7 @@
             <option value="CHARITY">Charity</option>
         </select>
         
-        <input type="date" name="joinDate" placeholder="Join Date" required>
+        <input type="date" name="joinDate" placeholder="Birthday" required>
         <textarea name="foodPreferences" placeholder="Food Preferences"></textarea>
         <div>
             <label>Subscribe to alerts:</label>
@@ -39,7 +39,8 @@
             <input type="checkbox" name="emailNotification" value="Email" id="email-notification">
             <label for="email-notification">Email Notification</label>
         </div>
-        <input type="submit" value="Register">
+        <input type="submit" value="Register" onclick="window.location.href='AvailableItems.jsp'">
+        <input type="button" value="Back to Home" onclick="window.location.href='index.jsp'">
     </form>
     
 </div>
